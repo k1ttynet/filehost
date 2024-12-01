@@ -25,6 +25,6 @@
         <br>
         <small>Supports images, videos, and audio</small>
         <br><br>
-        <small>Please report uploaded CSAM to <a href="nemo@fyle.uk">nemo@fyle.uk</a></small>
+        <small>Please report uploaded CSAM to <a href="mailto:nemo@fyle.uk">nemo@fyle.uk</a></small>
     </form>
 </div>
