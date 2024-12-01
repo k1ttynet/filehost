@@ -26,5 +26,7 @@
         <small>Supports images, videos, and audio</small>
         <br><br>
         <small>Please report uploaded CSAM to <a href="mailto:nemo@fyle.uk">nemo@fyle.uk</a></small>
+        <br>
+        <small><a href="https://codeberg.org/lexio/nemo">Source code</a></small>
     </form>
 </div>
