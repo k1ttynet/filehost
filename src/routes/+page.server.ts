@@ -46,6 +46,6 @@ export const actions = {
 
     await writeFile(filePath, new Uint8Array(await file.arrayBuffer()));
 
-    return { success: true, message: `File uploaded to localhost:5173/${fileName}!` };
+    return { success: true, message: `File uploaded to nemo.fyle.uk/${fileName}!` };
   }
 };
