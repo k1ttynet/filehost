@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+:root {
+    --font-family: "Lexend", sans-serif;
+    --background: #06070d;
+    --text-color: #fafafa;
+    --primary: #106effff;
+    --primary-low-opacity: rgba(16, 112, 255, 0.583);
+}
+::selection {
+    background: var(--primary-low-opacity);
+}
+body {
+    font-family: var(--font-family);
+    background: var(--background);
+    color: var(--text-color);
+    margin: 0;
+}
+.container {
+    max-width: 600px;
+    min-width: 292px;
+    text-align: center;
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.transparent {
+    opacity: 50%;
+}
+h1 {
+    line-height: 0px;
+}
+input {
+    font-family: var(--font-family);
+    border: 2px solid var(--text-color);
+    background: var(--background);
+    color: var(--text-color);
+    padding: 10px;
+    cursor: pointer;
+    transition: all .5s cubic-bezier(0,0.8,0,1);
+}
+input:hover {
+    background: var(--text-color);
+    color: var(--background);
+}
+input[type="file"]::file-selector-button {
+    display: none;
+}
+input[type="submit"] {
+    padding: 10px;
+}
+small {
+    opacity: 70%;
+    line-height: 5px;
+    font-size: 12px;
+}
