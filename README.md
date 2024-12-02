@@ -16,7 +16,7 @@ npm i
 ```
 npm run build
 ```
-4. Preview the builded product
+4. Preview the built product
 ```
 npm run preview
 ```
