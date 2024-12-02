@@ -4,11 +4,12 @@
     --font-family: "Lexend", sans-serif;
     --background: #06070d;
     --text-color: #fafafa;
+    --text-color-alt: #b1b2b3;
     --primary: #106effff;
-    --primary-low-opacity: rgba(16, 112, 255, 0.583);
 }
 ::selection {
-    background: var(--primary-low-opacity);
+    background: var(--text-color);
+    color: var(--background);
 }
 body {
     font-family: var(--font-family);
@@ -26,7 +27,7 @@ body {
     transform: translate(-50%, -50%);
 }
 .transparent {
-    opacity: 50%;
+    color: var(--text-color-alt);
 }
 h1 {
     line-height: 0px;
