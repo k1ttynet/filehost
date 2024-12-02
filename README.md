@@ -12,7 +12,11 @@ git clone https://codeberg.org/lexio/nemo
 ```
 npm i
 ```
-2. Build using npm
+3. Build using npm
 ```
 npm run build
+```
+4. Preview the builded product
+```
+npm run preview
 ```
