@@ -52,7 +52,7 @@ input[type="submit"] {
     padding: 10px;
 }
 small {
-    opacity: 70%;
+    color: var(--text-color-alt);
     line-height: 5px;
     font-size: 12px;
 }
