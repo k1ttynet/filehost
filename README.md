@@ -1,8 +1,8 @@
 # k1tty.net filehosting (formerly nemo)
 ### building
-1. get the repository
+1. get the repository and cd to the folder
 ```
-git clone https://github.com/k1tty.net/filehost
+git clone https://github.com/k1ttynet/filehost && cd filehost
 ```
 2. install dependencies
 ```
