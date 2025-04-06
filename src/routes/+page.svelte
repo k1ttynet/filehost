@@ -19,14 +19,14 @@
         <StatusBanner status={form.success ? "success" : "error"}>{form.success ? form.message : form.error}</StatusBanner>
     <br>
     {/if}
-    <h1>nemo</h1><br>
+    <h1>cdn.k1tty.net</h1><br>
     <form method="post" enctype="multipart/form-data">
         <input type="file" name="file" id="file" accept="image/*, video/*, audio/*"/>
         <br>
         <small>Supports images, videos, and audio</small>
         <br><br>
-        <small>Please report uploaded CSAM to <a href="mailto:nemo@fyle.uk">nemo@fyle.uk</a></small>
+        <small>Please report uploaded CSAM to <a href="mailto:root@k1tty.net">root@k1tty.net</a></small>
         <br>
-        <small><a href="https://codeberg.org/lexio/nemo">Source code</a></small>
+        <small><a href="https://github.com/k1ttynet/filehost">Source code</a></small>
     </form>
 </div>
