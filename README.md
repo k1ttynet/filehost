@@ -2,7 +2,7 @@
 ### building
 1. get the repository
 ```
-git clone https://codeberg.org/lexio/nemo
+git clone https://github.com/k1tty.net/filehost
 ```
 2. install dependencies
 ```
